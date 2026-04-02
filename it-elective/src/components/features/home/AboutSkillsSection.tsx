@@ -11,7 +11,7 @@ export default function AboutSkillsSection() {
     <section className="border-y border-[var(--border)] bg-[rgba(18,19,27,0.02)] dark:bg-[rgba(18,19,27,0.35)]">
       <div className="mx-auto w-full max-w-6xl px-4 py-12 sm:py-14">
         <h2 className="text-2xl font-semibold tracking-tight">
-          Quick About/Skills
+          Quick About
         </h2>
 
         <div className="mt-6 rounded-3xl border border-[var(--border)] bg-[rgba(255,255,255,0.55)] p-8 dark:bg-[rgba(18,19,27,0.55)]">
