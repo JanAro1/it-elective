@@ -4,7 +4,7 @@ const educationItems = [
     degree: "B.S. in Information Technology",
     year: "2026",
     overview:
-      "Focused on software engineering fundamentals, web development, and UI architecture.",
+      "Focused on web development, and UI architecture.",
   },
 ];
 
