@@ -2,7 +2,6 @@
 
 import * as React from "react";
 import Link from "next/link";
-const contactEmail = "arojohnvincent53@gmail.com";
 import Image from "next/image";
 
 import {
@@ -12,10 +11,12 @@ import {
 
 import { Button } from "@/components/ui/Button";
 
+const contactEmail = "arojohnvincent53@gmail.com";
+
 const tabs: Array<{ key: "all" | ProjectCategory; label: string }> = [
   { key: "all", label: "All" },
   { key: "development", label: "Development" },
-  { key: "photography", label: "Videography" },
+  { key: "videography", label: "Videography" },
 ];
 
 export default function ProjectsShowcaseSection() {

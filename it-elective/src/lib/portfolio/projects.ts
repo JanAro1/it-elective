@@ -1,4 +1,4 @@
-export type ProjectCategory = "design" | "development" | "photography";
+export type ProjectCategory = "design" | "development" | "videography";
 
 export type PortfolioProject = {
   id: string;
@@ -34,7 +34,7 @@ export const portfolioProjects: PortfolioProject[] = [
     id: "ias-video-project",
     title: "IAS Video Project",
     briefTag: "Cinematic Video Production",
-    category: "photography",
+    category: "videography",
     year: "2025",
     description:
       "A video project focused on storytelling, smooth editing transitions, and visual consistency.",
@@ -48,8 +48,8 @@ export const portfolioProjects: PortfolioProject[] = [
     id: "gayuma-mv-parody",
     title: "Gayuma - MV Parody",
     briefTag: "Music Video Parody",
-    category: "photography",
-    year: "2024",
+    category: "videography",
+    year: "2026",
     description:
       "A creative parody music video with cinematic cuts, visual effects, and engaging pacing.",
     gradient:
@@ -62,8 +62,8 @@ export const portfolioProjects: PortfolioProject[] = [
     id: "palangga-mv-parody",
     title: "Palangga - MV Parody",
     briefTag: "Music Video Parody",
-    category: "photography",
-    year: "2024",
+    category: "videography",
+    year: "2026",
     description:
       "A parody MV project highlighting rhythm-based cuts, narrative flow, and post-production polish.",
     gradient:
