@@ -21,9 +21,6 @@ export default function BioSection() {
         </div>
 
         <div className="space-y-4">
-          <div className="text-sm font-semibold text-[rgb(79,70,229)] dark:text-[rgb(165,180,252)]">
-            [Multi Paragraph Text]
-          </div>
           <p className="text-sm leading-relaxed text-[var(--foreground)]/90">
             Hi, I’m <span className="font-semibold">John Vincent Aro</span>. I enjoy crafting intuitive UI and engaging videos that flow smoothly and deliver 
             a clean, professional experience.
@@ -31,10 +28,6 @@ export default function BioSection() {
           <p className="text-sm leading-relaxed text-[var(--muted)]">
             My approach is simple: design the layout first, build reusable components, then
             add client-side interactions only when they truly improve the experience.
-          </p>
-          <p className="text-sm leading-relaxed text-[var(--muted)]">
-            This portfolio mirrors your mockup structure while aiming for a cleaner,
-            modern feel. Explore the projects grid or read my latest insights.
           </p>
 
           <div className="rounded-3xl border border-[var(--border)] bg-[rgba(99,102,241,0.06)] p-5 dark:bg-[rgba(99,102,241,0.14)]">
